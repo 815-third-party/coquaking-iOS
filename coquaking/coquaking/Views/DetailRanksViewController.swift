@@ -1,5 +1,5 @@
 //
-//  DetailRankViewController.swift
+//  DetailRanksViewController.swift
 //  coquaking
 //
 //  Created by CHOMINJI on 14/08/2019.
@@ -8,12 +8,15 @@
 
 import UIKit
 
-class DetailRankViewController: UIViewController {
-
+class DetailRanksViewController: UIViewController {
+    @IBOutlet weak var firstRankView: DetailRankView!
+    @IBOutlet weak var secondRankView: DetailRankView!
+    @IBOutlet weak var thirdRankView: DetailRankView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
     
 

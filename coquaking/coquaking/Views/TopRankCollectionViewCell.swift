@@ -9,5 +9,7 @@
 import UIKit
 
 class TopRankCollectionViewCell: UICollectionViewCell {
-    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
 }
