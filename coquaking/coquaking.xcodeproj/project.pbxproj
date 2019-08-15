@@ -20,6 +20,7 @@
 		FA4BF20223043A9C00CB2ACE /* TopRankCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4BF20123043A9C00CB2ACE /* TopRankCollectionViewCell.swift */; };
 		FAB847F223044716002CCBFF /* DetailRankView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB847F123044716002CCBFF /* DetailRankView.xib */; };
 		FAB847F423044723002CCBFF /* DetailRankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB847F323044723002CCBFF /* DetailRankView.swift */; };
+		FADE809C2305232D00597559 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE809B2305232D00597559 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FA4BF20123043A9C00CB2ACE /* TopRankCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankCollectionViewCell.swift; sourceTree = "<group>"; };
 		FAB847F123044716002CCBFF /* DetailRankView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailRankView.xib; sourceTree = "<group>"; };
 		FAB847F323044723002CCBFF /* DetailRankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRankView.swift; sourceTree = "<group>"; };
+		FADE809B2305232D00597559 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				FA07DDBE2304F875005A0B8E /* Models */,
 				FA07DDBF2304F889005A0B8E /* Services */,
 				FA4BF1EE230435BF00CB2ACE /* Main.storyboard */,
+				FADE809B2305232D00597559 /* Extensions.swift */,
 				FA4BF1F1230435C300CB2ACE /* Assets.xcassets */,
 				FA4BF1F3230435C300CB2ACE /* LaunchScreen.storyboard */,
 				FA4BF1F6230435C300CB2ACE /* Info.plist */,
@@ -197,6 +200,7 @@
 				FA4BF1ED230435BF00CB2ACE /* TopRanksViewController.swift in Sources */,
 				FA07DDC12304F8BF005A0B8E /* KingOfWeekService.swift in Sources */,
 				FA4BF1FD23043A1D00CB2ACE /* DetailRanksViewController.swift in Sources */,
+				FADE809C2305232D00597559 /* Extensions.swift in Sources */,
 				FA4BF1EB230435BF00CB2ACE /* AppDelegate.swift in Sources */,
 				FA07DDBC2304F7F9005A0B8E /* RoundImageView.swift in Sources */,
 				FAB847F423044723002CCBFF /* DetailRankView.swift in Sources */,

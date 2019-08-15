@@ -20,7 +20,8 @@ import UIKit
         }
     }
     
-    @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var crownImageView: UIImageView!
+    @IBOutlet weak var profileImageView: RoundImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
     override init(frame: CGRect) {

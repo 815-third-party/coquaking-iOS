@@ -1,0 +1,131 @@
+[
+   {
+ "category": "EARLYBIRD",
+ "first": {
+ "id": 1,
+ "name": "Michelle",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/18614517?s=460&v=4.png"
+ },
+ "second": {
+ "id": 2,
+ "name": "MINDY",
+ "thumbnail": "https://avatars2.githubusercontent.com/u/33537899?s=400&v=4.png"
+ },
+ "third": {
+ "id": 3,
+ "name": "배신자",
+ "thumbnail": "https://avatars3.githubusercontent.com/u/40727649?s=400&v=4.png"
+ }
+   },
+   {
+ "category": "MASTER",
+ "first": {
+ "id": 1,
+ "name": "JK",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/278988?s=400&v=4.png"
+ },
+ "second": {
+ "id": 2,
+ "name": "야곰",
+ "thumbnail": "https://avatars2.githubusercontent.com/u/3423048?s=400&v=4.png"
+ },
+ "third": {
+ "id": 3,
+ "name": "owl",
+ "thumbnail": "https://avatars1.githubusercontent.com/u/39197978?s=400&v=4.png"
+ }
+   },
+      {
+ "category": "NOTATTENDANCE",
+ "first": {
+ "id": 1,
+ "name": "Snow",
+ "thumbnail": "https://avatars3.githubusercontent.com/u/26768201?s=400&v=4.png"
+ },
+ "second": {
+ "id": 2,
+ "name": "Ogi",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/29880961?s=400&v=4.png"
+ },
+ "third": {
+ "id": 3,
+ "name": "부엉이",
+ "thumbnail": "https://avatars1.githubusercontent.com/u/39197978?s=400&v=4.png"
+ }
+   },
+      {
+ "category": "SOCCER",
+ "first": {
+ "id": 1,
+ "name": "wook",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/43375739?s=400&v=4.png"
+ },
+ "second": {
+ "id": 2,
+ "name": "잉글비",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/25456956?s=400&v=4.png"
+ },
+ "third": {
+ "id": 3,
+ "name": "왕민",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/26920620?s=400&v=4.png"
+ }
+   },
+         {
+ "category": "NIGHT",
+ "first": {
+ "id": 1,
+ "name": "밤코왕민",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/26920620?s=400&v=4.png"
+ },
+ "second": {
+ "id": 2,
+ "name": "MINDY",
+ "thumbnail": "https://avatars2.githubusercontent.com/u/33537899?s=400&v=4.png"
+ },
+ "third": {
+ "id": 3,
+ "name": "왕민",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/26920620?s=400&v=4.png"
+ }
+   },
+      {
+ "category": "DESIGN",
+ "first": {
+ "id": 1,
+ "name": "Q",
+ "thumbnail": "https://avatars.slack-edge.com/2019-04-04/600061433879_220104c395fc3e63b9ff_512.png"
+ },
+ "second": {
+ "id": 2,
+ "name": "Q",
+ "thumbnail": "https://avatars.slack-edge.com/2019-04-04/600061433879_220104c395fc3e63b9ff_512.png"
+ },
+ "third": {
+ "id": 3,
+ "name": "왕민",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/26920620?s=400&v=4.png"
+ }
+   },
+    {
+ "category": "STUDY",
+ "first": {
+ "id": 1,
+ "name": "Allen",
+ "thumbnail": "https://avatars.slack-edge.com/2019-05-26/639990524385_0966b525e9e834f2e16e_512.jpg"
+ },
+ "second": {
+ "id": 2,
+ "name": "Q",
+ "thumbnail": "https://avatars.slack-edge.com/2019-04-04/600061433879_220104c395fc3e63b9ff_512.png"
+ },
+ "third": {
+ "id": 3,
+ "name": "왕민",
+ "thumbnail": "https://avatars0.githubusercontent.com/u/26920620?s=400&v=4.png"
+ }
+   }
+
+
+   
+]

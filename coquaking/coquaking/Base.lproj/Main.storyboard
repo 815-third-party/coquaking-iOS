@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Top Ranks View Controller-->
+        <!--코쿼-킹-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="TopRanksViewController" customModule="coquaking" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,6 +35,12 @@
                                             <rect key="frame" x="0.0" y="0.0" width="180" height="237"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="밤코왕민" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ih-gk-raX">
+                                                    <rect key="frame" x="46.5" y="25" width="87" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgDefaultProfile" translatesAutoresizingMaskIntoConstraints="NO" id="OSI-dU-mgi" customClass="RoundImageView" customModule="coquaking" customModuleProvider="target">
                                                     <rect key="frame" x="31.5" y="60" width="117" height="117"/>
                                                     <constraints>
@@ -42,27 +48,30 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zF9-LS-QAe">
-                                                    <rect key="frame" x="69" y="193" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="67.5" y="193" width="45" height="21.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="밤코왕" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ih-gk-raX">
-                                                    <rect key="frame" x="51" y="16" width="78" height="36"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" image="imgCrown" translatesAutoresizingMaskIntoConstraints="NO" id="ec1-Lv-Ajv">
+                                                    <rect key="frame" x="11.5" y="25" width="30" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="0Ne-6x-UTd"/>
+                                                        <constraint firstAttribute="width" constant="30" id="RFZ-Xh-5l8"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="OSI-dU-mgi" firstAttribute="top" secondItem="5Ih-gk-raX" secondAttribute="bottom" constant="8" id="0a9-x1-BAA"/>
+                                            <constraint firstItem="ec1-Lv-Ajv" firstAttribute="trailing" secondItem="5Ih-gk-raX" secondAttribute="leading" constant="-5" id="4PI-MZ-nyG"/>
                                             <constraint firstItem="OSI-dU-mgi" firstAttribute="centerX" secondItem="QFE-MC-Z0P" secondAttribute="centerX" id="B3L-tp-r0t"/>
-                                            <constraint firstItem="5Ih-gk-raX" firstAttribute="centerX" secondItem="QFE-MC-Z0P" secondAttribute="centerX" id="KRf-GJ-Qes"/>
                                             <constraint firstItem="zF9-LS-QAe" firstAttribute="top" secondItem="OSI-dU-mgi" secondAttribute="bottom" constant="16" id="Mdx-WY-V9x"/>
+                                            <constraint firstItem="5Ih-gk-raX" firstAttribute="centerX" secondItem="QFE-MC-Z0P" secondAttribute="centerX" id="NOo-ZE-dkn"/>
                                             <constraint firstItem="OSI-dU-mgi" firstAttribute="width" secondItem="QFE-MC-Z0P" secondAttribute="width" multiplier="0.65" id="Px1-ph-gOe"/>
+                                            <constraint firstItem="OSI-dU-mgi" firstAttribute="top" secondItem="5Ih-gk-raX" secondAttribute="bottom" constant="5" id="Tlp-7O-Abd"/>
                                             <constraint firstItem="zF9-LS-QAe" firstAttribute="centerX" secondItem="QFE-MC-Z0P" secondAttribute="centerX" id="eCJ-sp-Ku0"/>
+                                            <constraint firstItem="5Ih-gk-raX" firstAttribute="centerY" secondItem="ec1-Lv-Ajv" secondAttribute="centerY" id="en7-PY-DSd"/>
                                             <constraint firstItem="OSI-dU-mgi" firstAttribute="centerY" secondItem="QFE-MC-Z0P" secondAttribute="centerY" id="gZZ-7R-zBR"/>
                                         </constraints>
                                         <connections>
@@ -84,7 +93,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sER-ON-dxD"/>
+                    <navigationItem key="navigationItem" title="코쿼-킹" id="sER-ON-dxD"/>
                     <connections>
                         <outlet property="collectionView" destination="5k6-wB-knd" id="jYj-NI-oiu"/>
                     </connections>
@@ -101,23 +110,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TM4-9S-Tzb" customClass="DetailRankView" customModule="coquaking" customModuleProvider="target">
-                                <rect key="frame" x="20" y="128" width="124" height="193"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Qk-is-109">
+                                <rect key="frame" x="10.5" y="345" width="124.5" height="551"/>
+                                <color key="backgroundColor" red="0.83921568627450982" green="0.90588235294117647" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ACa-HW-WyT" customClass="DetailRankView" customModule="coquaking" customModuleProvider="target">
-                                <rect key="frame" x="153" y="322" width="124" height="184"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R41-jp-nyX">
+                                <rect key="frame" x="145" y="541" width="124" height="355"/>
+                                <color key="backgroundColor" red="0.83921568629999999" green="0.90588235289999997" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lnk-Vy-AWX" customClass="DetailRankView" customModule="coquaking" customModuleProvider="target">
-                                <rect key="frame" x="281" y="509" width="124" height="184"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TyC-KI-wM3">
+                                <rect key="frame" x="279" y="737.5" width="124.5" height="158.5"/>
+                                <color key="backgroundColor" red="0.83921568629999999" green="0.90588235289999997" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TM4-9S-Tzb" customClass="DetailRankView" customModule="coquaking" customModuleProvider="target">
+                                <rect key="frame" x="10.5" y="158.5" width="124.5" height="186.5"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ACa-HW-WyT" customClass="DetailRankView" customModule="coquaking" customModuleProvider="target">
+                                <rect key="frame" x="145" y="355" width="124" height="186"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ACa-HW-WyT" secondAttribute="height" multiplier="1:1.5" id="ho3-Wx-9rZ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lnk-Vy-AWX" customClass="DetailRankView" customModule="coquaking" customModuleProvider="target">
+                                <rect key="frame" x="279" y="551" width="124.5" height="186.5"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="R41-jp-nyX" firstAttribute="leading" secondItem="ACa-HW-WyT" secondAttribute="leading" id="0VG-YL-6ku"/>
+                            <constraint firstItem="Lnk-Vy-AWX" firstAttribute="leading" secondItem="ACa-HW-WyT" secondAttribute="trailing" constant="10" id="0je-EC-zq7"/>
+                            <constraint firstItem="R41-jp-nyX" firstAttribute="bottom" secondItem="ody-xX-zDf" secondAttribute="bottom" id="1UF-3f-tmF"/>
+                            <constraint firstItem="R41-jp-nyX" firstAttribute="top" secondItem="ACa-HW-WyT" secondAttribute="bottom" id="1uP-He-DoI"/>
+                            <constraint firstItem="TM4-9S-Tzb" firstAttribute="width" secondItem="ACa-HW-WyT" secondAttribute="width" id="43I-gC-MfH"/>
+                            <constraint firstItem="ACa-HW-WyT" firstAttribute="top" secondItem="TM4-9S-Tzb" secondAttribute="bottom" constant="10" id="5Pj-IX-vRF"/>
+                            <constraint firstItem="TyC-KI-wM3" firstAttribute="width" secondItem="1Qk-is-109" secondAttribute="width" id="92G-co-TBs"/>
+                            <constraint firstItem="1Qk-is-109" firstAttribute="trailing" secondItem="TM4-9S-Tzb" secondAttribute="trailing" id="9FX-ib-Xor"/>
+                            <constraint firstItem="ACa-HW-WyT" firstAttribute="width" secondItem="ody-xX-zDf" secondAttribute="width" multiplier="0.3" id="EK4-Kd-6pK"/>
+                            <constraint firstItem="TyC-KI-wM3" firstAttribute="bottom" secondItem="ody-xX-zDf" secondAttribute="bottom" id="HbP-oN-0hm"/>
+                            <constraint firstItem="ACa-HW-WyT" firstAttribute="centerY" secondItem="ody-xX-zDf" secondAttribute="centerY" priority="750" id="MQ1-sR-u5H"/>
+                            <constraint firstItem="TM4-9S-Tzb" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jnU-vm-NXf" secondAttribute="top" constant="30" id="NKg-Kq-wdp"/>
+                            <constraint firstItem="1Qk-is-109" firstAttribute="top" secondItem="TM4-9S-Tzb" secondAttribute="bottom" id="QJK-4E-SnH"/>
+                            <constraint firstItem="Lnk-Vy-AWX" firstAttribute="top" secondItem="ACa-HW-WyT" secondAttribute="bottom" constant="10" id="QXv-Yv-iJj"/>
+                            <constraint firstAttribute="bottom" secondItem="1Qk-is-109" secondAttribute="bottom" id="Rp9-vh-fVc"/>
+                            <constraint firstItem="Lnk-Vy-AWX" firstAttribute="width" secondItem="ACa-HW-WyT" secondAttribute="width" id="TQo-qb-AX8"/>
+                            <constraint firstItem="TyC-KI-wM3" firstAttribute="trailing" secondItem="Lnk-Vy-AWX" secondAttribute="trailing" id="TZg-yu-Qxh"/>
+                            <constraint firstItem="TM4-9S-Tzb" firstAttribute="height" secondItem="ACa-HW-WyT" secondAttribute="height" id="UBt-3V-Smo"/>
+                            <constraint firstItem="R41-jp-nyX" firstAttribute="trailing" secondItem="ACa-HW-WyT" secondAttribute="trailing" id="VKN-Vb-Ui6"/>
+                            <constraint firstItem="1Qk-is-109" firstAttribute="leading" secondItem="TM4-9S-Tzb" secondAttribute="leading" id="XXd-6w-UEN"/>
+                            <constraint firstItem="ACa-HW-WyT" firstAttribute="leading" secondItem="TM4-9S-Tzb" secondAttribute="trailing" constant="10" id="YBT-VN-g2l"/>
+                            <constraint firstItem="ACa-HW-WyT" firstAttribute="centerX" secondItem="ody-xX-zDf" secondAttribute="centerX" id="YLQ-Ls-hhh"/>
+                            <constraint firstItem="R41-jp-nyX" firstAttribute="width" secondItem="1Qk-is-109" secondAttribute="width" id="agb-Vx-cJK"/>
+                            <constraint firstItem="Lnk-Vy-AWX" firstAttribute="height" secondItem="ACa-HW-WyT" secondAttribute="height" id="bh4-kx-PfG"/>
+                            <constraint firstItem="TyC-KI-wM3" firstAttribute="top" secondItem="Lnk-Vy-AWX" secondAttribute="bottom" id="gpC-8D-myj"/>
+                            <constraint firstItem="1Qk-is-109" firstAttribute="width" secondItem="TM4-9S-Tzb" secondAttribute="width" id="qVL-Jf-Rbg"/>
+                            <constraint firstItem="TyC-KI-wM3" firstAttribute="leading" secondItem="Lnk-Vy-AWX" secondAttribute="leading" id="wa4-Rz-fHD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jnU-vm-NXf"/>
                     </view>
                     <connections>
@@ -146,10 +193,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UA5-qC-tKD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+            <point key="canvasLocation" x="232" y="138"/>
         </scene>
     </scenes>
     <resources>
+        <image name="imgCrown" width="50" height="50"/>
         <image name="imgDefaultProfile" width="120" height="120"/>
     </resources>
 </document>

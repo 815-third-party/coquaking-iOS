@@ -10,19 +10,44 @@ import Foundation
 
 typealias KingOfWeeks = [KingOfWeek]
 struct KingOfWeek: Codable {
-    let category: String
+    let category: Categories
     let first, second, third: Rank
 }
 
 struct Rank: Codable {
     let id: Int
-    let slackID, name: String
+    let name: String
     let thumbnail: String?
     
     enum CodingKeys: String, CodingKey {
         case id
-        case slackID = "slackId"
         case name, thumbnail
+    }
+}
+
+enum Categories: String, Codable {
+    case text = "TEXT"
+    case reaction = "REACTION"
+    case earlyBird = "EARLYBIRD"
+    case notAttendance = "NOTATTENDANCE"
+    case soccer = "SOCCER"
+    case night = "NIGHT"
+    case design = "DESIGN"
+    case study = "STUDY"
+    case master = "MASTER"
+    
+    var koreanTitle: String {
+        switch self {
+        case .text: return "투머치토커"
+        case .reaction: return "공감요정"
+        case .earlyBird: return "바지런쟁이"
+        case .notAttendance: return "코쿼좀와"
+        case .soccer: return "위이이닝"
+        case .night: return "밤코왕"
+        case .design: return "디자인쟁이"
+        case .study: return "고오옹부"
+        case .master: return "갓스터"
+        }
     }
 }
 
