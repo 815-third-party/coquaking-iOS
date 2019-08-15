@@ -21,7 +21,7 @@
             <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgDefaultProfile" translatesAutoresizingMaskIntoConstraints="NO" id="wf5-t4-pBL">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgDefaultProfile" translatesAutoresizingMaskIntoConstraints="NO" id="wf5-t4-pBL" customClass="RoundImageView" customModule="coquaking" customModuleProvider="target">
                     <rect key="frame" x="20" y="24" width="160" height="160"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="wf5-t4-pBL" secondAttribute="height" multiplier="1:1" id="yoR-pD-Dwj"/>
