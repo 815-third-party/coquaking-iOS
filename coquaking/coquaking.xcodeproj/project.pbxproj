@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA07DDB82304EACF005A0B8E /* Ranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07DDB72304EACF005A0B8E /* Ranks.swift */; };
+		FA07DDB82304EACF005A0B8E /* KingOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07DDB72304EACF005A0B8E /* KingOfWeek.swift */; };
 		FA07DDBA2304ECF1005A0B8E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07DDB92304ECF1005A0B8E /* APIService.swift */; };
 		FA07DDBC2304F7F9005A0B8E /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07DDBB2304F7F9005A0B8E /* RoundImageView.swift */; };
+		FA07DDC12304F8BF005A0B8E /* KingOfWeekService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA07DDC02304F8BF005A0B8E /* KingOfWeekService.swift */; };
 		FA4BF1EB230435BF00CB2ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4BF1EA230435BF00CB2ACE /* AppDelegate.swift */; };
 		FA4BF1ED230435BF00CB2ACE /* TopRanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4BF1EC230435BF00CB2ACE /* TopRanksViewController.swift */; };
 		FA4BF1F0230435BF00CB2ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4BF1EE230435BF00CB2ACE /* Main.storyboard */; };
@@ -22,9 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA07DDB72304EACF005A0B8E /* Ranks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranks.swift; sourceTree = "<group>"; };
+		FA07DDB72304EACF005A0B8E /* KingOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingOfWeek.swift; sourceTree = "<group>"; };
 		FA07DDB92304ECF1005A0B8E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		FA07DDBB2304F7F9005A0B8E /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		FA07DDC02304F8BF005A0B8E /* KingOfWeekService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingOfWeekService.swift; sourceTree = "<group>"; };
 		FA4BF1E7230435BF00CB2ACE /* coquaking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coquaking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4BF1EA230435BF00CB2ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA4BF1EC230435BF00CB2ACE /* TopRanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRanksViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA07DDBD2304F858005A0B8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA4BF1EC230435BF00CB2ACE /* TopRanksViewController.swift */,
+				FA4BF1FC23043A1D00CB2ACE /* DetailRanksViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA07DDBE2304F875005A0B8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA07DDB72304EACF005A0B8E /* KingOfWeek.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA07DDBF2304F889005A0B8E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA07DDB92304ECF1005A0B8E /* APIService.swift */,
+				FA07DDC02304F8BF005A0B8E /* KingOfWeekService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		FA4BF1DE230435BF00CB2ACE = {
 			isa = PBXGroup;
 			children = (
@@ -69,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				FA4BF1EA230435BF00CB2ACE /* AppDelegate.swift */,
-				FA07DDB72304EACF005A0B8E /* Ranks.swift */,
-				FA07DDB92304ECF1005A0B8E /* APIService.swift */,
+				FA07DDBD2304F858005A0B8E /* Controllers */,
 				FA4BF1FE23043A5800CB2ACE /* Views */,
+				FA07DDBE2304F875005A0B8E /* Models */,
+				FA07DDBF2304F889005A0B8E /* Services */,
 				FA4BF1EE230435BF00CB2ACE /* Main.storyboard */,
 				FA4BF1F1230435C300CB2ACE /* Assets.xcassets */,
 				FA4BF1F3230435C300CB2ACE /* LaunchScreen.storyboard */,
@@ -83,9 +112,7 @@
 		FA4BF1FE23043A5800CB2ACE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FA4BF1EC230435BF00CB2ACE /* TopRanksViewController.swift */,
 				FA4BF20123043A9C00CB2ACE /* TopRankCollectionViewCell.swift */,
-				FA4BF1FC23043A1D00CB2ACE /* DetailRanksViewController.swift */,
 				FAB847F123044716002CCBFF /* DetailRankView.xib */,
 				FAB847F323044723002CCBFF /* DetailRankView.swift */,
 				FA07DDBB2304F7F9005A0B8E /* RoundImageView.swift */,
@@ -168,11 +195,12 @@
 				FA4BF20223043A9C00CB2ACE /* TopRankCollectionViewCell.swift in Sources */,
 				FA07DDBA2304ECF1005A0B8E /* APIService.swift in Sources */,
 				FA4BF1ED230435BF00CB2ACE /* TopRanksViewController.swift in Sources */,
+				FA07DDC12304F8BF005A0B8E /* KingOfWeekService.swift in Sources */,
 				FA4BF1FD23043A1D00CB2ACE /* DetailRanksViewController.swift in Sources */,
 				FA4BF1EB230435BF00CB2ACE /* AppDelegate.swift in Sources */,
 				FA07DDBC2304F7F9005A0B8E /* RoundImageView.swift in Sources */,
 				FAB847F423044723002CCBFF /* DetailRankView.swift in Sources */,
-				FA07DDB82304EACF005A0B8E /* Ranks.swift in Sources */,
+				FA07DDB82304EACF005A0B8E /* KingOfWeek.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
